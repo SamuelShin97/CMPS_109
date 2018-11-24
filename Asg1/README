@@ -1,0 +1,26 @@
+Samuel Shin
+sayshin@ucsc.edu
+1510580
+
+Program Assignment 1: This program's purpose is to reimplement the dc which is a reverse polish desk calculator.
+Instead of taking in long values, this program is to reimplement so that dc works with vectors to allow the 
+calculation of larger numbers since longs can only hold a certain amount of data. Starter code was given to us
+and our job was to manipulate the classes ubigint.cpp and bigint.cpp so that our version of dc (ydc) would work
+similarily to dc. 
+
+Special note: So I had trouble copying the .score directory into really any directory as no matter what i tried 
+I always got denied access to it. So instead, I just copied and pasted everything into my own directory but I 
+still couldn't run mk.build because I would get denied access from my working directory. I just ran the tests 
+manually and compared my ydc outputs with dc's output. Everything seems to work okay except for my division 
+operator. I tried my best to implement it but couldn't get it down. I tried following what Mackey said to do 
+in divide_by_2 on Piazza but it still didn't work out. My divide and modulo work for simple cases like 
+9 / 3 or 10 / 2, 8 / 4, etc. but don't work for anything else. It looks 3 of the 8 test cases have to do with
+division test5, test6, and testx where test5 is the division test, 6 as the exponent which looks like it depends
+on division working, and testx which has a little of everything. My exponent seems to hit an infinite loop when 
+run and I'm not sure why either. I just ask for mercy in the grading because I've spent 12 hours no exaggeration
+yesterday trying to figure these issues out. I'm new to c++ programming and trying to figure everything out has 
+been quite the challenge. I can say that I have learned a lot especially in how vectors work and am grateful for 
+the learning experience this program gave me. I just don't want to get punished as hard for not being able to 
+figure out one operator's implementation. Again, I tried my hardest to get division to work and I hate to turn
+in broken code but I just don't have anymore time to figure it out. Thank you for taking the time to read this
+note!

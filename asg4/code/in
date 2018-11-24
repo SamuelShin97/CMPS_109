@@ -1,0 +1,2 @@
+define rect rectangle 100 50
+draw cyan rect 100 100

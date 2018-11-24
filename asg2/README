@@ -1,0 +1,20 @@
+Samuel Shin
+sayshin@ucsc.edu
+1510580
+
+files submitted: 
+commands.h
+commands.cpp
+main.cpp
+util.h
+util.cpp
+file_sys.h
+file_sys.cpp
+Makefile
+Debug.h
+Debug.cpp
+
+All fn's were implemented in the inode_state class and called from commands.cpp except for function
+"exit" which was implemented in commands.cpp directly. Unfortunately, I had no time to implement the
+"rm" and "rmr" functions and lsr is half implemented.
+
